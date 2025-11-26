@@ -276,3 +276,7 @@ INSERT INTO tca_filme (titulo, ano_publicacao, diretor, sinopse, elenco, categor
 ('O Iluminado', 1980, 'Stanley Kubrick', 'Uma família se muda para um hotel isolado durante o inverno, onde o pai gradualmente enlouquece sob influências sobrenaturais.', 'Jack Nicholson, Shelley Duvall, Danny Lloyd', 11, 'o_iluminado.png'),
 ('Hereditário', 2018, 'Ari Aster', 'Uma família é assombrada por uma presença sombria após a morte da avó, revelando segredos ancestrais aterrorizantes.', 'Toni Collette, Alex Wolff, Milly Shapiro', 11, 'hereditario.png'),
 ('O Exorcista', 1973, 'William Friedkin', 'Uma atriz recorre a dois padres para salvar sua filha, que está possuída por uma entidade demoníaca.', 'Ellen Burstyn, Max von Sydow, Linda Blair', 11, 'o_exorcista.png');
+
+DELETE FROM tca_filme
+WHERE titulo = 'Elis Regina: Como Nossos Pais';
+
