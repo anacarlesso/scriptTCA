@@ -280,3 +280,8 @@ INSERT INTO tca_filme (titulo, ano_publicacao, diretor, sinopse, elenco, categor
 DELETE FROM tca_filme
 WHERE titulo = 'Elis Regina: Como Nossos Pais';
 
+ALTER TABLE tca_favoritos DROP COLUMN ativo;
+ALTER TABLE tca_watchlist DROP COLUMN ativo;
+ALTER TABLE tca_review DROP COLUMN ativo;
+
+
