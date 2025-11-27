@@ -284,4 +284,8 @@ ALTER TABLE tca_favoritos DROP COLUMN ativo;
 ALTER TABLE tca_watchlist DROP COLUMN ativo;
 ALTER TABLE tca_categoria DROP COLUMN ativo;
 
+ALTER TABLE tca_usuario
+DROP COLUMN foto_perfil;
+
+
 --SELECTS, UPDATES E INSERTS ESTÃO NA DAO IMPLEMENTADA
